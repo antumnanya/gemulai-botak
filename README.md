@@ -15,3 +15,31 @@ Sebelum menjalankan program ini, pastikan sudah menginstall beberapa program ber
 |-------------------|------------------|-----------------|
 | Python | Untuk menjalankan file python dan memuat *library* yang digunakan digunakan dalam program | https://www.python.org/ftp/python/pymanager/python-manager-25.0.msix |
 | Git | Untuk *cloning repository* dan menjalankan program lewat terminal/*bash* | https://github.com/git-for-windows/git/releases/download/v2.52.0.windows.1/Git-2.52.0-64-bit.exe |
+
+### *Cloning repository*
+1. Salin link repositori proyek ini: https://github.com/antumnanya/Proyek-Kolaborasi-Python---Warkop-DKE.git
+2. Buka terminal dan pilih folder yang akan dijadikan tempat kloning repositori
+```bash
+  cd "[direktori folder yang ingin digunakan]"
+```
+  > contoh direktori folder: cd "D:/Pengenalan Pemrograman/Repository Github
+3. Salin repositori program ke dalam folder menggunakan fungsi '**git clone**'
+```bash
+  git clone https://github.com/antumnanya/Proyek-Kolaborasi-Python---Warkop-DKE.git
+```
+
+### Menjalankan file program
+1. Buka terminal dan pilih direktori folder yang berisi repositori
+```bash
+  cd "[direktori folder sebelumnya]
+```
+2. Pilih folder dengan nama yang sama dengan repositori
+```bash
+  cd Proyek-Kolaborasi-Python---Warkop-DKE
+```
+3. Jalankan program utama menggunakan fungsi '**python [nama file].py**'
+```bash
+  python main.py
+```
+> 'main.py' merupakan file utama untuk menjalankan program kami
+4. Selamat Bermain!
